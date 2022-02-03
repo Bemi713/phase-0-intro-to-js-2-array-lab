@@ -1,9 +1,12 @@
 // Write your solution here!
-const cats = ["Milo", "Otis", "Garfield"];
+const cats 
 
 function destructivelyAppendCat(name) {
 cats.push(name);
 }
+
+const cats = ["Milo", "Otis", "Garfield"];
+cats.length = 0;
 
 function destructivelyPrependCat(name){
     return cats.unshift(name);
